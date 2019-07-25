@@ -1,4 +1,8 @@
-.layout{
-  margin: auto;
-  text-align: center
+.layout {
+  margin: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box
 }

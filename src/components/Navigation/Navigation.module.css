@@ -1,3 +1,54 @@
-.linkList{
-  list-style: none
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 6vh;
+  align-items: center;
+  background-color: #303030;
+  padding: 0 32px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box
+}
+
+.navTitle {
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.linkList a {
+  color: whitesmoke;
+  cursor: pointer;
+  margin: 0;
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.linkList a:hover {
+  background-color: slategrey;
+}
+
+.linkList a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.current{
+  background-color: cornflowerblue;
+}
+
+.current:hover{
+  background-color: cornflowerblue;
 }

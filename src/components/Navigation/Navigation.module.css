@@ -10,7 +10,7 @@
   width: 100%;
   top: 0;
   z-index: 10;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .navTitle {
@@ -40,15 +40,10 @@
   background-color: slategrey;
 }
 
-.linkList a:visited {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-.current{
+.current {
   background-color: cornflowerblue;
 }
 
-.current:hover{
-  background-color: cornflowerblue;
+.current:hover {
+  background-color: cornflowerblue !important;
 }

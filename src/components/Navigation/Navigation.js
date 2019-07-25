@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import styles from "./Navigation.module.css";
 
 const Navigation = ({ currentPath }) => (
-    <header className={styles.navBar}>
+  <header className={styles.navBar}>
     <span className={styles.navTitle}>Lazaro Quintana, Full-Stack Web Developer</span>
     <span className={styles.linkList}>
       <NavLink className={currentPath === '/' ? styles.current : null} exact to="/"> 

@@ -1,4 +1,11 @@
-.contact{
+.contact {
   background-color: azure;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+  min-height: fit-content;
+}
+
+.header {
+  padding-top: 80px;
+  margin: 0;
 }

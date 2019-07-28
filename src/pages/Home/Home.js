@@ -9,11 +9,14 @@ const Home = ({ match }) => {
   return (
     <div className={styles.home}>
       <Navigation currentPath={match.path} />
-      <h1 className={styles.header}>You are on the HOME page</h1>
-      <img src={avatar_url} alt="Limlight86" />
+      <div className={styles.header}>
+        <h1>Hello World!</h1>
+        <p>Full-Stack Web Developer, Lazaro Quintana</p>
+      </div>
+      <img className={styles.avatar} src={avatar_url} alt="Limlight86" />
       <p>
-        Home Page, make it pretty, highlight what tech I know, show off a couple
-        of featured projects.
+        I am a junior full-stack web developer, recipient of the Spirit of
+        <a href="https://wyncode.co/" target="blank">Wyncode</a> award for Cohort 33.
       </p>
     </div>
   );

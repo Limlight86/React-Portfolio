@@ -1,0 +1,48 @@
+.wrapper {
+  margin: auto;
+  width: 80%
+}
+
+.featured {
+  margin-top: 36px;
+  display: flex;
+  display: row;
+}
+
+div h1 {
+  margin-bottom: 0;
+}
+
+.featured a{
+  margin-right: 16px;
+}
+
+.featured img {
+  width: 100%;
+}
+
+.disc {
+  font-size: 10px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  width: 120px;
+  background-color: cornflowerblue;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  transition: opacity 0.4s ease-out;
+  opacity: 0;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

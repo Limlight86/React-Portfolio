@@ -1,0 +1,18 @@
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20%;
+  justify-content: space-evenly;
+  margin: 16px auto;
+}
+
+.socialLinks img:hover {
+  transform: scale(1.1);
+}
+
+.socialLinks img {
+  width: 75px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}

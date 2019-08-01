@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from 'react-router-dom'
 import styles from "./Home.module.css";
 import { PortfolioContext } from "../../context/PortfolioContext";
 import { Navigation, SocialLinks, Technologies, FeaturedProjects } from "../../components/";
@@ -21,6 +22,10 @@ const Home = ({ match }) => {
       </p>
       <Technologies/>
       <FeaturedProjects/>
+      <h2>
+        Thank you for visiting! Please visit my <Link to={`/about`}>About</Link> me page for more of my story.
+      </h2>
+      <h2><Link to={`/contact`}>Leave me a message</Link> and I will get back to you ASAP.</h2>
     </div>
   );
 };

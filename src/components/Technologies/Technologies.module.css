@@ -1,0 +1,21 @@
+.technologies {
+  text-align: center;
+  margin: auto;
+}
+
+.imgCollection {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.technologies li {
+  min-width: 280px;
+}
+.technologies img {
+  width: 200px;
+  height: 200px;
+}

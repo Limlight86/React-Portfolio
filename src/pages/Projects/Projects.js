@@ -9,12 +9,11 @@ const Projects = ({ match }) => {
   return (
     <div className={styles.projects}>
       <Navigation currentPath={match.path} />
-      <h1 className={styles.header}>You are on the Projects page</h1>
+      <h1 className={styles.header}>My GitHub repositories</h1>
       <p>
-        This page will make a fetch to the github api and display my repos with
-        the featured ones at the top and display them using a component that
-        puts them out nice and neat. The component will be a link to the repo
-        site.
+        Thank you for taking the time to look at some of the work I have done.
+        Feel free to click on a card to visit the repo for that specific
+        project.
       </p>
       <div className={styles.repoGrid}>
         {repoData.map(repo => {

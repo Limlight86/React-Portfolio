@@ -1,10 +1,11 @@
 import React, { useContext } from "react";
 import styles from "./Projects.module.css";
-import { Navigation } from "../../components/";
+import { Navigation, ProjectCard } from "../../components/";
 import { PortfolioContext } from "../../context/PortfolioContext";
 
 const Projects = ({ match }) => {
   const { repoData } = useContext(PortfolioContext);
+  console.log(repoData);
   return (
     <div className={styles.projects}>
       <Navigation currentPath={match.path} />
@@ -15,9 +16,19 @@ const Projects = ({ match }) => {
         puts them out nice and neat. The component will be a link to the repo
         site.
       </p>
-      {repoData.map(repo => {
-        return <p key={repo.id}>{repo.name}</p>
-      })}
+      <div className={styles.repoGrid}>
+        {repoData.map(repo => {
+          return (
+            <ProjectCard
+              key={repo.id}
+              name={repo.name}
+              description={repo.description}
+              language={repo.language}
+              html_url={repo.html_url}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

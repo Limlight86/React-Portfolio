@@ -1,5 +1,5 @@
 .projects {
-  background-color: lightblue;
+  background-color: whitesmoke;
   height: 100%;
   width: 100%;
   min-height: fit-content;
@@ -8,4 +8,14 @@
 .header {
   padding-top: 80px;
   margin: 0;
+}
+
+.repoGrid {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 0 48px
 }

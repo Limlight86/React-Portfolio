@@ -1,0 +1,23 @@
+.repoCard {
+  border: 1px solid black;
+  box-sizing: border-box;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease-out;
+  border-radius: 5px;
+}
+
+.repoCard:hover {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease-out;
+}
+
+.repoLink {
+  text-decoration: none;
+  color: black;
+}

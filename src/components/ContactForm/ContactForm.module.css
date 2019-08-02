@@ -16,6 +16,9 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   border: none;
 }
+.contactForm textarea, input:focus {
+  outline: none;
+}
 
 .textArea {
   margin-top: 16px;
@@ -46,6 +49,7 @@
   transition: opacity 0.4s ease-in-out;
   display: flex;
   cursor: pointer;
+  outline: none
 }
 
 .contactButton img {

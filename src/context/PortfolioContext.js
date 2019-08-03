@@ -6,6 +6,7 @@ const PortfolioContext = createContext();
 const PortfolioContextProvider = ({ children }) => {
   const [githubData, setGithubData] = useState({});
   const [repoData, setRepoData] = useState([]);
+  const [show, setShow] = useState(false)
 
 
   const fetchLimlight = async () => {
@@ -26,7 +27,7 @@ const PortfolioContextProvider = ({ children }) => {
   }, []);
 
   return (
-    <PortfolioContext.Provider value={{ githubData, repoData }}>
+    <PortfolioContext.Provider value={{ githubData, repoData, show, setShow }}>
       {children}
     </PortfolioContext.Provider>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { DrawerToggle } from '../../components'
 import styles from "./Navigation.module.css";
 
 const Navigation = ({ currentPath }) => (
@@ -19,6 +20,7 @@ const Navigation = ({ currentPath }) => (
         Contact
       </NavLink>
     </span>
+    <DrawerToggle/>
   </header>
 );
   

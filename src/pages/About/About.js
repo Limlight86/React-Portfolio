@@ -11,7 +11,7 @@ const About = ({ match }) => (
     <ResumeButton />
     <div className={styles.mealFly}>
       <img src={mealFlyWin} alt="ptich night c33" />
-      <span>My team, Meal-Fly, accepting our award for best project on pitch night C33. (Judges on left side.)</span>
+      <span>My team, Meal-Fly, accepting our award for best project on pitch night C33. (Judges on left.)</span>
     </div>
     <MyStory />
   </div>

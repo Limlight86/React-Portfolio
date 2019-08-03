@@ -49,3 +49,12 @@
 .current:hover {
   background-color: cornflowerblue !important;
 }
+
+@media (max-width: 768px) {
+  .navBar {
+    height: 5%;
+  }
+  .linkList {
+    display: none;
+  }
+}

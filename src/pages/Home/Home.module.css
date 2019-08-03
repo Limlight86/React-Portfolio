@@ -3,12 +3,20 @@
   width: 100%;
   height: 100%;
   min-height: fit-content;
-  padding-bottom: 48px
+  padding-bottom: 48px;
 }
 
 .header {
   padding-top: 80px;
-  margin: 0;
+  margin: 48px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+}
+
+.headerLeft img {
+  margin: 0 16px;
 }
 
 .avatar {
@@ -16,7 +24,6 @@
   width: 300px;
   height: 300px;
   object-fit: cover;
-  margin: 16px 0;
 }
 
 .home a {
@@ -24,10 +31,10 @@
   color: cornflowerblue;
 }
 
-.home p a:hover{
-  text-decoration: underline
+.home p a:hover {
+  text-decoration: underline;
 }
 
-.home h2 a:hover{
-  text-decoration: underline
+.home h2 a:hover {
+  text-decoration: underline;
 }

@@ -1,6 +1,6 @@
 .wrapper {
   margin: 32px auto;
-  width: 80%
+  width: 80%;
 }
 
 .featured {
@@ -13,7 +13,7 @@ div h1 {
   margin-bottom: 0;
 }
 
-.featured a{
+.featured a {
   margin-right: 16px;
 }
 

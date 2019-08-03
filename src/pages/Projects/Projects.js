@@ -9,7 +9,7 @@ const Projects = ({ match }) => {
   return (
     <div className={styles.projects}>
       <Navigation currentPath={match.path} />
-      <h1 className={styles.header}>My GitHub repositories</h1>
+      <h1 className={styles.header}>My GitHub Repositories</h1>
       <p>
         Thank you for taking the time to look at some of the work I have done.
         Feel free to click on a card to visit the repo for that specific

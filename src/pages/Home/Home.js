@@ -12,11 +12,14 @@ const Home = ({ match }) => {
     <div className={styles.home}>
       <Navigation currentPath={match.path} />
       <div className={styles.header}>
+      <div className={styles.headerLeft}>
         <span style={{fontSize:"48px"}}>Hello World!</span>
         <p>Full-Stack Web Developer, Lazaro Quintana</p>
         <SocialLinks />
+        <ResumeButton />
       </div>
       <img className={styles.avatar} src={avatar_url} alt="Limlight86" />
+    </div>
       <p>
         I am a junior full-stack web developer, recipient of the Spirit of&nbsp;
         <a href="https://wyncode.co/" target="blank">Wyncode</a> award for Cohort 33.
@@ -28,7 +31,6 @@ const Home = ({ match }) => {
       </h2>
       <h2>Please visit my <Link to={`/projects`}>Projects</Link> page to see my GitHub repositories.</h2>
       <h2><Link to={`/contact`}>Leave me a message</Link> and I will get back to you ASAP.</h2>
-      <ResumeButton />
     </div>
   );
 };

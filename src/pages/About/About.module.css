@@ -3,9 +3,31 @@
   height: 100%;
   width: 100%;
   min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
 }
 
 .header {
   padding-top: 80px;
   margin: 0;
+}
+.about img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about p {
+  width: 70%;
+  margin: 16px auto;
+}
+
+.mealFly {
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+}
+.mealFly span {
+  margin: 0 auto;
+  font-size: 10px;
 }

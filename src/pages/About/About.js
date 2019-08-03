@@ -1,13 +1,20 @@
 import React from "react";
+import { Navigation } from "../../components/";
 import styles from "./About.module.css";
-import { Navigation } from '../../components/'
+import { ResumeButton, MyStory } from "../../components";
+import { mealFlyWin } from "../../assets";
 
-const About = ({ match }) =>(
+const About = ({ match }) => (
   <div className={styles.about}>
     <Navigation currentPath={match.path} />
-    <h1 className={styles.header}>You are on the About page</h1>
-    <p>This page will have a small story about my journey as a dev.</p>
+    <h1 className={styles.header}>Meet Laz!</h1>
+    <ResumeButton />
+    <div className={styles.mealFly}>
+      <img src={mealFlyWin} alt="ptich night c33" />
+      <span>My team, Meal-Fly, accepting our award for best project on pitch night C33. (Judges on left.)</span>
+    </div>
+    <MyStory />
   </div>
-) 
+);
 
 export default About;

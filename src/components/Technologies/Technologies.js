@@ -8,15 +8,15 @@ const Technologies = () => (
     <ul className={styles.imgCollection}>
       <li>
         <h3>React</h3>
-        <img src={reactLogo} alt="reactjs" style={{ width: "280px" }} />
+        <img className={styles.react} src={reactLogo} alt="reactjs" />
       </li>
       <li>
         <h3>Javacript</h3>
-        <img src={jsLogo} alt="js" />
+        <img className={styles.techImg} src={jsLogo} alt="js" />
       </li>
       <li>
         <h3>Ruby</h3>
-        <img src={rubyLogo} alt="ruby" />
+        <img className={styles.techImg} src={rubyLogo} alt="ruby" />
       </li>
     </ul>
   </div>

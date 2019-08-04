@@ -21,3 +21,22 @@
   text-decoration: none;
   color: black;
 }
+
+@media (max-width: 768px) {
+  .repoCard {
+    margin: 8px;
+  }
+}
+
+@media (max-width: 414px) {
+  .repoCard {
+    margin: 8px;
+    padding: 8px;
+  }
+  .repoCard h1 {
+    font-size: 24px;
+  }
+  .repoCard p {
+    font-size: 16x;
+  }
+}

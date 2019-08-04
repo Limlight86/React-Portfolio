@@ -15,7 +15,43 @@
 .technologies li {
   min-width: 280px;
 }
-.technologies img {
+.techImg {
   width: 200px;
   height: 200px;
+}
+
+.react {
+  width: 280px;
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .technologies li {
+    min-width: 150px;
+  }
+
+  .react {
+    width: 150px;
+    height: 100px;
+  }
+
+  .techImg {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 414px) {
+  .technologies li {
+    min-width: 100px;
+  }
+
+  .react {
+    width: 100px;
+    height: 75px;
+  }
+  .techImg {
+    width: 75px;
+    height: 75px;
+  }
 }

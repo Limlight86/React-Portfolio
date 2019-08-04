@@ -13,7 +13,7 @@ const Home = ({ match }) => {
       <Navigation currentPath={match.path} />
       <div className={styles.header}>
       <div className={styles.headerLeft}>
-        <span style={{fontSize:"48px"}}>Hello World!</span>
+        <span className={styles.hello}>Hello World!</span>
         <p>Full-Stack Web Developer, Lazaro Quintana</p>
         <SocialLinks />
         <ResumeButton />

@@ -1,7 +1,8 @@
 import React from "react";
+import styles from './MyStory.module.css'
 
 const MyStory = () => (
-  <div>
+  <div className={styles.myStory}>
     <p>
       I am a full stack web developer based in Miami, FL. Before going on the
       journey of becoming a developer and submersing myself in the world of

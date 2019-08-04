@@ -21,9 +21,6 @@ div h1 {
   width: 100%;
 }
 
-.disc {
-  font-size: 10px;
-}
 .tooltip {
   position: relative;
   display: inline-block;
@@ -45,4 +42,25 @@ div h1 {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 414px) {
+  .featured {
+    flex-direction: column;
+  }
+  .wrapper {
+    width: 90%;
+  }
+  .featured img {
+    margin-bottom: 8px;
+  }
+  .featured a {
+    margin-right: 0;
+  }
 }

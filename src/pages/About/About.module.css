@@ -31,3 +31,27 @@
   margin: 0 auto;
   font-size: 10px;
 }
+
+@media (max-width: 768px) {
+  .about img {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 414px) {
+  .about img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about span {
+    padding: 0 32px;
+  }
+  .about p {
+    margin: 10px auto
+  }
+  .about button{
+    width: 150px;
+    line-height: 2
+  }
+}

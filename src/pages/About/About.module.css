@@ -44,14 +44,15 @@
     width: 90%;
     margin: 0 auto;
   }
-  .about span {
-    padding: 0 32px;
-  }
   .about p {
-    margin: 10px auto
+    margin: 10px auto;
+    width: 80%
   }
   .about button{
     width: 150px;
     line-height: 2
+  }
+  .caption{
+    padding: 0 32px
   }
 }

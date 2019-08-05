@@ -26,6 +26,7 @@ input:focus {
   margin-top: 16px;
   padding: 4px 8px;
   border-radius: 5px;
+  font-family: "Roboto", sans-serif;
   font-size: inherit;
   resize: none;
   overflow-y: scroll;

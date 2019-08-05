@@ -10,7 +10,7 @@ const Footer = ({ currentPath }) => (
         <i className="fab fa-github fa-lg" />
       </a>
       <a href="https://www.linkedin.com/in/lazq86/" target="blank">
-        <i class="fab fa-linkedin fa-lg" />
+        <i className="fab fa-linkedin fa-lg" />
       </a>
     </span>
     <span className={styles.footerLinks}>

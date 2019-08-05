@@ -12,13 +12,11 @@ const PortfolioContextProvider = ({ children }) => {
   const fetchLimlight = async () => {
     let { data } = await axios.get(`https://api.github.com/users/Limlight86`);
     setGithubData(data);
-    console.log(data)
   };
 
   const fetchRepos = async () => {
     let { data } = await axios.get(`https://api.github.com/users/Limlight86/repos`);
     setRepoData(data);
-    console.log(data)
   }
 
   useEffect(() => {

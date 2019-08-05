@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  line-height: 2.5;
+  width: 100%;
+  justify-content: center;
+  background-color: #303030;
+  color: whitesmoke;
+  margin-top: 48px;
+}

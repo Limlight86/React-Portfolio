@@ -3,11 +3,16 @@
   height: 100%;
   width: 100%;
   min-height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   padding-top: 80px;
   margin: 0;
+}
+.links {
+  flex: 1;
 }
 
 @media (max-width: 768px) {

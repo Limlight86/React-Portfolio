@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import styles from "./Projects.module.css";
-import { Navigation, ProjectCard } from "../../components/";
+import { Navigation, ProjectCard, Footer } from "../../components/";
 import { PortfolioContext } from "../../context/PortfolioContext";
 
 const Projects = ({ match }) => {
@@ -28,6 +28,7 @@ const Projects = ({ match }) => {
           );
         })}
       </div>
+      <Footer/>
     </div>
   );
 };

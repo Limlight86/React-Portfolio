@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import { Navigation, ContactForm, SocialLinks } from "../../components/";
+import { Navigation, ContactForm, SocialLinks, Footer } from "../../components/";
 
 const Contact = ({ match }) => (
   <div className={styles.contact}>
@@ -11,6 +11,7 @@ const Contact = ({ match }) => (
     <div className={styles.links}>
       <SocialLinks />
     </div>
+    <Footer/>
   </div>
 );
 

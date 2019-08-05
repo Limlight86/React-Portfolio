@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  line-height: 2;
+  width: 100%;
+  background-color: #303030;
+  color: whitesmoke;
+  margin-top: 48px;
+  justify-content: space-around;
+}
+
+.copyRight {
+  margin-right: 48px;
+}
+
+.current {
+  color: cornflowerblue !important;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+i {
+  margin: 8px;
+  color: whitesmoke;
+}
+
+@media (max-width: 414px) {
+  .copyRight {
+    display: none;
+  }
+  .footer {
+    font-size: 12px;
+  }
+  .footer a {
+    margin: 0 !important;
+  }
+  i {
+    margin: 4px;
+  }
+}

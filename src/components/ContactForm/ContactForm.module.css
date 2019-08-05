@@ -4,6 +4,7 @@
   flex-direction: column;
   width: 35%;
   font-family: inherit;
+  flex: 1;
 }
 
 .personal input {

@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from 'react-router-dom'
 import styles from "./Home.module.css";
 import { PortfolioContext } from "../../context/PortfolioContext";
-import { Navigation, SocialLinks, Technologies, FeaturedProjects, ResumeButton } from "../../components/";
+import { Navigation, SocialLinks, Technologies, FeaturedProjects, ResumeButton, Footer } from "../../components/";
 
 const Home = ({ match }) => {
   const { githubData } = useContext(PortfolioContext);
@@ -31,6 +31,7 @@ const Home = ({ match }) => {
       </h2>
       <h2>Please visit my <Link to={`/projects`}>Projects</Link> page to see my GitHub repositories.</h2>
       <h2><Link to={`/contact`}>Leave me a message</Link> and I will get back to you ASAP.</h2>
+      <Footer currentPath={match.path}/>
     </div>
   );
 };

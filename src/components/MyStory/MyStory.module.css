@@ -1,0 +1,7 @@
+.myStory {
+  flex: 1;
+}
+
+.myStory p {
+  margin: 8px auto
+}

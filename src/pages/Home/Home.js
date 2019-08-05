@@ -31,7 +31,7 @@ const Home = ({ match }) => {
       </h2>
       <h2>Please visit my <Link to={`/projects`}>Projects</Link> page to see my GitHub repositories.</h2>
       <h2><Link to={`/contact`}>Leave me a message</Link> and I will get back to you ASAP.</h2>
-      <Footer/>
+      <Footer currentPath={match.path}/>
     </div>
   );
 };

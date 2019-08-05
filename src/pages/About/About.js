@@ -14,7 +14,7 @@ const About = ({ match }) => (
       <span className={styles.caption}>My team, Meal-Fly, accepting our award for best project on pitch night C33. (Judges on left.)</span>
     </div>
     <MyStory />
-    <Footer/>
+    <Footer currentPath={match.path}/>
   </div>
 );
 

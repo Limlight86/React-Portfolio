@@ -28,7 +28,7 @@ const Projects = ({ match }) => {
           );
         })}
       </div>
-      <Footer/>
+      <Footer currentPath={match.path}/>
     </div>
   );
 };

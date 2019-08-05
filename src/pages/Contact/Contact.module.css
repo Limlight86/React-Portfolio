@@ -11,9 +11,6 @@
   padding-top: 80px;
   margin: 0;
 }
-.links {
-  flex: 1;
-}
 
 @media (max-width: 768px) {
   .contact a {

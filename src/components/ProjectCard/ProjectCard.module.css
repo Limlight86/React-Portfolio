@@ -1,6 +1,7 @@
 .repoCard {
   box-sizing: border-box;
-  min-height: 220px;
+  padding: 12px;
+  min-height: 240px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

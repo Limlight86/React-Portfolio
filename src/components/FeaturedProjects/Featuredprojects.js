@@ -14,13 +14,13 @@ const FeaturedProjects = () => (
         <span className={styles.tooltiptext}>WynMusic</span>
         <img src={wynMusic} alt="wyn-music" />
       </a>
-      <a className={styles.tooltip} href="https://github.com/Limlight86/WynMusic" target='blank'>
+      <a className={styles.tooltip} href="https://github.com/Limlight86/Care-List" target='blank'>
         <span className={styles.tooltiptext}>Care-List</span>
-        <img src={list} alt="wyn-music" />
+        <img src={list} alt="careList" />
       </a>
-      <a className={styles.tooltip} href="https://github.com/Limlight86/WynMusic" target='blank'>
+      <a className={styles.tooltip} href="https://github.com/Limlight86/React-Portfolio" target='blank'>
         <span className={styles.tooltiptext}>React-Portfolio</span>
-        <img src={portfolio} alt="wyn-music" />
+        <img src={portfolio} alt="portfolio" />
       </a>
     </div>
   </div>

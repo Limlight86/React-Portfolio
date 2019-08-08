@@ -34,12 +34,22 @@
   color: cornflowerblue;
 }
 
+.home p a {
+  font-weight: 700;
+}
+
 .home p a:hover {
   text-decoration: underline;
 }
 
-.home h2 a:hover {
+.home p a:hover {
   text-decoration: underline;
+}
+
+.map {
+  width: 50%;
+  line-height: 1.5;
+  margin: 0 auto;
 }
 
 @media (max-width: 414px) {
@@ -48,18 +58,25 @@
     flex-direction: column;
     margin: 36px auto;
   }
+  .bottom {
+    padding: 12px;
+  }
   .avatar {
     width: 225px;
     height: 225px;
     margin-top: 8px;
   }
 
-  .home h2 {
+  .home p {
     font-size: 16px;
     padding: 0 12px;
   }
-}
-@media (max-width: 414px) {
+  .map {
+    width: auto;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 8px;
+  }
   .hello {
     font-size: 36px;
   }

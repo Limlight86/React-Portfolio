@@ -20,17 +20,19 @@ const Home = ({ match }) => {
       </div>
       <img className={styles.avatar} src={avatar_url} alt="Limlight86" />
     </div>
+    <div className={styles.bottom}>
       <p>
         I am a junior full-stack web developer, recipient of the Spirit of&nbsp;
         <a href="https://wyncode.co/" target="blank">Wyncode</a> award for Cohort 33.
       </p>
       <Technologies/>
       <FeaturedProjects/>
-      <h2>
+    </div>
+      <p className={styles.map}>
         Thank you for visiting! Please visit my <Link to={`/about`}>About</Link> me page for more of my story.
-      </h2>
-      <h2>Please visit my <Link to={`/projects`}>Projects</Link> page to see my GitHub repositories.</h2>
-      <h2><Link to={`/contact`}>Leave me a message</Link> and I will get back to you ASAP.</h2>
+        Please visit my <Link to={`/projects`}>Projects</Link> page to see my GitHub repositories.
+        <Link to={`/contact`}>&nbsp;Leave me a message</Link> and I will get back to you ASAP.
+      </p>
       <Footer currentPath={match.path}/>
     </div>
   );

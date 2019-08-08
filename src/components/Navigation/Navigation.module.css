@@ -61,7 +61,7 @@
 
 @media (max-width: 414px) {
   .navBar {
-    height: 7%;
+    height: 8%;
   }
   .navTitle {
     font-size: 12px;
@@ -70,7 +70,6 @@
 
 @media (max-width: 320px) {
   .navBar {
-    height: 8%;
     padding: 0 16px;
   }
 }

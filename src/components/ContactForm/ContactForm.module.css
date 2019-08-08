@@ -66,24 +66,29 @@ input:focus {
 
 @media (max-width: 768px) {
   .contactForm {
-    width: 75%;
+    width: 85%;
+  }
+  .personal input {
+    width: 97%;
+  }
+  .contactButton {
+    width: 100%;
+  }
+  .contactButton img {
+    width: 7%;
+    margin: auto;
   }
 }
 
 @media (max-width: 414px) {
-  .contactForm {
-    width: 85%;
-  }
   .personal input {
-    width: 75%;
+    width: 95%;
   }
   .contactButton {
-    width: 55%;
+    width: 100%;
   }
-}
-
-@media (max-width: 320px) {
-  .contactButton {
-    width: 65%;
+  .contactButton img {
+    width: 10%;
+    margin: auto;
   }
 }

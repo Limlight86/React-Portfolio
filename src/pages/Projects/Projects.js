@@ -5,7 +5,6 @@ import { PortfolioContext } from "../../context/PortfolioContext";
 
 const Projects = ({ match }) => {
   const { repoData } = useContext(PortfolioContext);
-  console.log(repoData);
   return (
     <div className={styles.projects}>
       <Navigation currentPath={match.path} />
@@ -28,7 +27,7 @@ const Projects = ({ match }) => {
           );
         })}
       </div>
-      <Footer currentPath={match.path}/>
+      <Footer currentPath={match.path} />
     </div>
   );
 };

@@ -12,22 +12,22 @@ const Home = ({ match }) => {
     <div className={styles.home}>
       <Navigation currentPath={match.path} />
       <div className={styles.header}>
-      <div className={styles.headerLeft}>
-        <span className={styles.hello}>Hello World!</span>
-        <p>Full-Stack Web Developer, Lazaro Quintana</p>
-        <SocialLinks />
-        <ResumeButton />
+        <div className={styles.headerLeft}>
+          <span className={styles.hello}>Hello World!</span>
+          <p>Full-Stack Web Developer, Lazaro Quintana</p>
+          <SocialLinks />
+          <ResumeButton />
+        </div>
+        <img className={styles.avatar} src={avatar_url} alt="Limlight86" />
       </div>
-      <img className={styles.avatar} src={avatar_url} alt="Limlight86" />
-    </div>
-    <div className={styles.bottom}>
-      <p>
-        I am a junior full-stack web developer, recipient of the Spirit of&nbsp;
-        <a href="https://wyncode.co/" target="blank">Wyncode</a> award for Cohort 33.
-      </p>
-      <Technologies/>
-      <FeaturedProjects/>
-    </div>
+      <div className={styles.bottom}>
+        <p>
+          I am a junior full-stack web developer, recipient of the Spirit of&nbsp;
+          <a href="https://wyncode.co/" target="blank">Wyncode</a> award for Cohort 33.
+        </p>
+        <Technologies/>
+        <FeaturedProjects/>
+      </div>
       <p className={styles.map}>
         Thank you for visiting! Please visit my <Link to={`/about`}>About</Link> me page for more of my story.
         Please visit my <Link to={`/projects`}>Projects</Link> page to see my GitHub repositories.

@@ -7,6 +7,18 @@
   flex-direction: column;
 }
 
+.hero {
+  background: url(../../assets/images/Meal-Fly-win.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 58px;
+  height: 500px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   padding-top: 80px;
   margin: 0;

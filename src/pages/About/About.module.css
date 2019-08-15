@@ -97,6 +97,7 @@
   .about button {
     width: 125px;
     line-height: 2;
+    font-size: 11px;
   }
 
   .about a {

@@ -51,11 +51,18 @@
   margin: 0 auto;
 }
 
+@media (max-width: 600px) {
+  .avatar {
+    width: 215px;
+    height: 215px;
+  }
+}
+
 @media (max-width: 414px) {
   .header {
     padding-top: 36px;
     flex-direction: column;
-    margin: 36px auto;
+    margin: 48px auto;
   }
   .bottom {
     padding: 12px;

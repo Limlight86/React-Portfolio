@@ -59,6 +59,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .navTitle {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 414px) {
   .navBar {
     height: 8%;
